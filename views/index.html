@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <br>
+        <h1>
+          URL Shortener
+        </h1>
+        <br>
+        <form action="api/shorturl/new" method="POST">
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="">
+          <input type="submit" value="POST URL">
+        </form>
+     </div>
+     
+      <div class="footer">
+        <p>
+          by <a href="https://www.github.com/sfardea">nolt</a>
+        </p>
+      </div>
+        
+   </body>
+
+
+</html>
